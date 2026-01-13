@@ -6,14 +6,7 @@ from datetime import datetime
 import streamlit as st
 
 # --- Ensure deep-translator is available at runtime ---
-import sys, subprocess
 
-try:
-    from deep_translator import GoogleTranslator
-except Exception:
-    # Install at runtime if the package is missing (useful when the build ignored requirements.txt)
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "deep-translator"])
-    from deep_translator import GoogleTranslator
 # ----------------------------
 # Page config + custom styles
 # ----------------------------
