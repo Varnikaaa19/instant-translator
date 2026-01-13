@@ -4,6 +4,7 @@ import csv
 from datetime import datetime
 
 import streamlit as st
+from deep_translator import GoogleTranslator
 
 # --- Ensure deep-translator is available at runtime ---
 
