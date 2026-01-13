@@ -1,0 +1,4 @@
+streamlit==1.52.2
+deep-translator==1.11.4
+beautifulsoup4==4.14.3
+soupsieve==2.8.1
